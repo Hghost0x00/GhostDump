@@ -130,7 +130,7 @@ async def handle_backup(update, context):
 
     return ConversationHandler.END
 
-async def cmd_cancel(update, context):c
+async def cmd_cancel(update, context):
     await update.message.reply_text("Cancelled.", reply_markup=ReplyKeyboardRemove())
     return ConversationHandler.END
 
